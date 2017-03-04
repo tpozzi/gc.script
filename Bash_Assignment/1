@@ -1,0 +1,70 @@
+#!/bin/bash
+#Bash Assignment
+
+function sysname ()
+{
+	
+}
+
+function domainname () 
+{
+
+}
+
+function ipaddr ()
+{
+
+}
+
+function osversion ()
+{
+
+}
+
+function osname ()
+{
+
+}
+
+function cpu ()
+{
+
+}
+
+function mem ()
+{
+
+}
+
+function disk ()
+{
+
+}
+
+function printers ()
+{
+
+}
+
+function softwares ()
+{
+
+}
+
+function error ()
+{
+
+}
+
+function schelp ()
+{
+
+}
+
+
+#mem=$(free -h | grep Mem | awk '{print $2}')
+#disk=$(df -h | grep $(cat /etc/fstab | grep ^/ | grep 'ext' | awk '{print $1}') | awk '{print $4}')
+#printers=$(lpstat -p)
+#softwares=""
+
+echo $mem
